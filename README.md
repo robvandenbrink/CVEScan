@@ -1,5 +1,5 @@
 # CVEScan 
-List CVEs and details that apply to your infrastructure (pre-inventoried)
+List CVEs and details that apply to your infrastructure (pre-inventoried).  
 Documentation will be on https://isc.sans.edu, for 7,8,11 Jan 2021
 <pre>
 Syntax:
