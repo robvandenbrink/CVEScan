@@ -18,7 +18,7 @@ The output file matches the input filename (note where the dots are)
 
 I typicaly do not include MS Windows of any version or MS Office, as those should be taken care of - you need to go to a lot of effort to turn off all the update mechanisms for these, and you deserve what you get if so (sorry).
 
-However, SQL, Exchange, SCCM and so are on definitely good to include, as well as Oracle, Adobe or any other applications or infrastructure.  Typically I break customer invntories into:
+However, SQL, Exchange, SCCM and so are on definitely good to include, as well as Oracle, Adobe or any other applications or infrastructure.  Typically I break customer inventories into multiple "scopes":
 - hosts on internet perimeters (or other clear trust boundaries)
 - hosts on Server subnets
 - hosts on workstation subnets
