@@ -1,0 +1,4 @@
+hostname,cpe
+"dc01-fw01","cpe:2.3:a:cisco:firepower_threat_defense:6.6.*"
+"dc01-adc01","cpe:2.3:o:citrix:application_delivery_controller_firmware:13.*"
+"dc01-appsrv01","cpe:2.3:a:apache:struts:2.5.*"
