@@ -3,14 +3,16 @@ List CVEs and details that apply to your infrastructure (pre-inventoried)
 Documentation will be on https://isc.sans.edu, for 7,8,11 Jan 2021
 <pre>
 Syntax:
-cvescan.ps1 -i Customer.Perimeter.in -d 90
+cvescan.ps1 -i CustomerName.Perimeter.in -d 90
     where:
-       -i  CustomerPerimeter.in is a pre-inventoried infrastructure input file
-                   (one example Customer's perimeter is provided as an example)
-       -d n       indicates how many days to pull CVE's for 
-                  (typicall 7/30/60/90 days, depending)
+       -i  CustomerName.Perimeter.in is a pre-inventoried infrastructure input file
+                   typically: CustomerName.Scope.in  (.in for input)
+                   one example Customer's perimeter is provided as an example
+                   
+       -d n        indicates how many days to pull CVE's for 
+                   (typically 7/30/60/90 days, depending on requirements)
 </pre>       
-I find this most useful to run for pre-inventoried customer subnets, to let them know when critical CVEs are posted that they should evaluate.  This saves me from parsing every one of hundreds of CVEs that get posted regularly, and likely missing the 1,2,3 that are critical to my clients
+I find this most useful to run for pre-inventoried customer subnets, to let them know when critical CVEs are posted that they should evaluate.  This saves me from manually parsing every one of hundreds of CVEs that get posted regularly, and likely missing the 1,2,3 that are critical to my clients
 
 The output file matches the input filename (note where the dots are)
 
