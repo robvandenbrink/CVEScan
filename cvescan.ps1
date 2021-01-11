@@ -6,9 +6,9 @@
 # Hosted at https://github.com/robvandenbrink/CVEScan
 #
 # Further documentation at:
-#         https://isc.sans.edu
-#         https://isc.sans.edu
-#         https://isc.sans.edu
+#         https://isc.sans.edu/forums/diary/Using+the+NIST+Database+and+API+to+Keep+Up+with+Vulnerabilities+and+Patches+Part+1+of+3/26958/
+#         https://isc.sans.edu/forums/diary/Using+the+NIST+Database+and+API+to+Keep+Up+with+Vulnerabilities+and+Patches+Playing+with+Code+Part+2+of+3/26964/
+#         https://isc.sans.edu/forums/diary/Using+the+NVD+Database+and+API+to+Keep+Up+with+Vulnerabilities+and+Patches+Tool+Drop+CVEScan+Part+3+of+3/26974/
 #
 # Syntax:
 #         CVEScan.ps1  -i <input file> -d <how many days back to look>
@@ -38,8 +38,8 @@ $allCVEs = @()
 $CVEDetails = @()
 
 $apps = Import-Csv -path $infile
-$outfile = $infile.replace(".in",".html")
 $now = get-date 
+$outfile = $infile.replace(".in",$now.tostring("yyyy-MM-dd_hh-mm")+"_"+$daterange+"-days.html")
 $StartDate = $now.adddays(-$daterange).tostring("yyyy-MM-dd")+ "T00:00:00:000%20UTC-00:00"
 
 # Collect host to CVEs table
