@@ -1,8 +1,11 @@
 # CVEScan 
 List CVEs and details that apply to your infrastructure (pre-inventoried).  
 Documentation is on the Internet Storm Center site: https://isc.sans.edu, for 7,8,11 Jan 2021:
+
 https://isc.sans.edu/forums/diary/Using+the+NIST+Database+and+API+to+Keep+Up+with+Vulnerabilities+and+Patches+Part+1+of+3/26958/
+
 https://isc.sans.edu/forums/diary/Using+the+NIST+Database+and+API+to+Keep+Up+with+Vulnerabilities+and+Patches+Playing+with+Code+Part+2+of+3/26964/
+
 https://isc.sans.edu/forums/diary/Using+the+NVD+Database+and+API+to+Keep+Up+with+Vulnerabilities+and+Patches+Tool+Drop+CVEScan+Part+3+of+3/26974/
 
 <pre>
